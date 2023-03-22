@@ -11,4 +11,5 @@ jobs:
         with:
           distribution: 'corretto'
           java-version: '17'
-      - run: java CadastroUsuarioApiApplication.java
+          cache: 'gradle'
+      - run: ./gradlew build --no-daemon
