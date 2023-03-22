@@ -11,4 +11,4 @@ jobs:
         with:
           distribution: 'corretto'
           java-version: '17'
-      - run: java /src/main/java/br/com/portfolio/lsilva/aws/cadastrousuarioapi/CadastroUsuarioApiApplication.java
+      - run: java CadastroUsuarioApiApplication.java
